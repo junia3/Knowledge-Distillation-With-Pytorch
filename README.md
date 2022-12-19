@@ -8,6 +8,7 @@
 ## Train CIFAR-10 with knowledge distillation method
 This project is held by STDL(Special Topics in Deep learning) class, Yonsei University.   
 There are some requirements. Pytorch installation is optional with your own computer.
+You can check on [my blog](https://junia3.github.io/blog/transfer) post to read about various learning methods in deep learning. It includes knowledge distillation. 
 
 ```bash
 conda install pytorch torchvision torchaudio pytorch-cuda=11.6 -c pytorch -c nvidia
