@@ -72,7 +72,7 @@ And also you can change any code in train.py if you want to use another optimize
 Or you can just download my model below.
 |Model|Training Accuracy|Test Accuracy|
 |:---:|:---:|:---:|
-|teacher[download](https://drive.google.com/file/d/1av6cD6rdsSQ83ojM9k5Woc7lfn153IZR/view?usp=share_link)|100%|95.39%|
+|teacher network [download](https://drive.google.com/file/d/1av6cD6rdsSQ83ojM9k5Woc7lfn153IZR/view?usp=share_link)|100%|95.39%|
 
 ## Step (2) Train student network
 After create the pre-trained teacher network, you can train student network with KD loss.
