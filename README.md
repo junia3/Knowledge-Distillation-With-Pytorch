@@ -60,6 +60,11 @@ And also you can change any code in train.py if you want to use another optimize
 |Optimizer|Adam|
 |Scheduler|CosineAnnealingLR|
 
+---
+
+## Pre-trained teacher network
+Or you can just download my model below.
+
 ## Step 2: Train student network
 After create the pre-trained teacher network, you can train student network with KD loss.
 
