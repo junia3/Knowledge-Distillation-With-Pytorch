@@ -5,12 +5,6 @@
 </a></p>
  -->
 
-- [Train CIFAR-10 with knowledge distillation method](#train-cifar-10-with-knowledge-distillation-method)
-- [Knowledge distillation loss](#knowledge-distillation-loss)
-- [Step (1) Train teacher network](#step--1--train-teacher-network)
-- [Pre-trained teacher network](#pre-trained-teacher-network)
-- [Step (2) Train student network](#step--2--train-student-network)
-
 ## Train CIFAR-10 with knowledge distillation method
 This project is held by STDL(Special Topics in Deep learning) class, Yonsei University.   
 There are some requirements. Pytorch installation is optional with your own computer.
