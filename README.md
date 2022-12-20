@@ -68,7 +68,7 @@ And also you can change any code in train.py if you want to use another optimize
 
 ---
 
-## Pre-trained teacher network
+## Pre-trained teacher network(Modified structure of ResNet-18)
 Or you can just download my model below.
 |Model|Training Accuracy|Test Accuracy|
 |:---:|:---:|:---:|
@@ -83,5 +83,15 @@ After create the pre-trained teacher network, you can train student network with
 python train.py --mode student
 ```
 You can modify $\alpha$ and temperature $T$ values.
+
+## Pre-trained student network
+I simply train student model in model.py. If you want to train another structure, build your own student and teacher relationships.
+|Model|Training Accuracy|Test Accuracy|
+|:---:|:---:|:---:|
+|Teacher network([download](https://drive.google.com/file/d/1av6cD6rdsSQ83ojM9k5Woc7lfn153IZR/view?usp=share_link))|100%|95.39%|
+|Student network([download](https://drive.google.com/file/d/1H4CuX07hNbh146CMfXrulpMgFrKpzecs/view?usp=share_link))|85.14%|84.84|
+
+Training studnet network with KD loss. $T = 20$ and $\lambda = 0.1$.
+
 
 ![footer](https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=150&section=footer&animation=fadeIn&fontColor=FFFFFF&fontAlignY=40)
